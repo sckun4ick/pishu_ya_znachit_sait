@@ -1,0 +1,1271 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    width: 100%;
+    height: 106px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.center_header{
+    width: 80%;
+    height: 80%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav{
+    width: 530px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    list-style: none;
+}
+
+ul{
+    width: 100%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+
+    
+}
+
+
+ul li a{
+    color: #000000;
+    text-decoration: none;
+    list-style: none;
+
+    font-size: 16px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+    transition: 0.5s all ease;
+}
+
+ul li a:hover{
+    color: #8f8f8f;
+}
+
+.li_znachok li a{
+     color: #000000;
+    text-decoration: none;
+    list-style: none;
+
+    font-size: 16px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.li_znachok{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    gap: 5px;
+}
+
+/* ------------------------------------- */
+
+main{
+    width: 100%;
+    height: 7246px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.first{
+    width: 100%;
+    height: 803px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.center_first{
+    width: 80%;
+    height: 80%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.glav_box{
+    width: 100%;
+    height: 520px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.text_levo{
+    width: 50%;
+    height: 80%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+
+    text-align: left;
+
+}
+
+.buttons_first{
+    width: 50%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.nechto_wow{
+    width: 151px ;
+    height: 58px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    gap: 20px;
+}
+
+.book_button{
+    width: 151px;
+    height: 58px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-style: none;
+
+    background-color: #000000;
+
+    color: #ffffff;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 18px;
+
+    transition: 0.5s all ease;
+}
+
+.book_button:hover{
+    background-color: #ffffff;
+    border: 1px solid #000000;
+
+    color: #000000;
+
+}
+
+.center_logos{
+    width: 80%;
+    height: 100px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.logos_vsykoe{
+    width: 100%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* ------------------------------------- */
+
+.service{
+    width: 100%;
+    height: 730px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.center_service{
+    width: 80%;
+    height: 90%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.zagalovki_sevice{
+    width: 80%;
+    height: 272px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+}
+
+.mnogo_cartochki_service{
+    width: 100%;
+    height: 381px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cartochki_service{
+    width: 306px;
+    height: 381px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.urili{
+    height: 104px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.urili li{
+    list-style-type: square;
+}
+
+/* ---------------------------------------- */
+
+.projects{
+    width: 100%;
+    height: 900px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    position: relative;
+    top: 200px;
+}
+
+.center_projects{
+    width: 80%;
+    height: 120%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    
+}
+
+.zagalovok_button_projects{
+    width: 201px;
+    height: 58px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    border: 1px solid #ffffff;
+
+    font-size: 16px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #ffffff;
+    line-height: 28px;
+
+    background-color: #000000;
+
+    border-style: none;
+
+    transition: 0.3s all ease;
+}
+
+.zagalovok_button_projects:hover{
+
+    background-color: #ffffff;
+    border: 1px solid #000000;
+    color: #000000;
+}
+
+.zagalovok_projects{
+    width: 100%;
+    height: 242px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+
+    column-gap: 15px;
+}
+
+.text_zagalovka{
+    width: 100%;
+    height: 130px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.kartochki_project{
+    width: 100%;
+    height: 468px;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+
+    overflow: hidden;
+}
+
+.kartochki_project_2{
+    width: 140%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.cartochki_prohects{
+    width: 486px;
+    height: 486px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+
+    background-color: #ffffff;
+}
+
+.kartochki_kartinocki{
+    width: 486px;
+    height: 305px;
+}
+
+.text_prikolov_proj{
+    width: 100%;
+    height: 163px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.center_texta{
+    width: 80%;
+    height: 80%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.view_carts{
+    width: 140px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: flex-start;
+}
+
+.knopochki{
+    width: 100%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.levo_pravo{
+    width: 116px;
+    height: 54px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.kvadratik{
+    width: 54px;
+    height: 54px;
+
+    background-color: #ffffff;
+    border-style: none;
+    border:1px solid #000000;
+
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    transition: 0.5s all ease;
+}
+
+.kvadratik:hover{
+    background-color: #8f8f8f;
+    border:1px solid #000000;
+
+}
+/* ------------------------------------- */
+
+.blog{
+    width: 100%;
+    height: 1637px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+
+    background-color: #000000;
+}
+
+.pustoy_div{
+    width: 100%;
+    height: 238px;
+
+}
+
+.center_blog{
+    width: 80%;
+    height: 80%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.osnonovnoy_div_blog{
+    width: 30%;
+    height: 180px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+}
+
+.zagalovok_blog{
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.iuwiutre{
+    width: 100px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+
+.belyi_tuda{
+    filter: invert();
+}
+
+.vsykoe_blog{
+    width: 60%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.cartochka_bloga{
+    width: 100%;
+    height: 80%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.data_cart{
+    width: 100%;
+    height: 130px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+
+    border-bottom: 1px solid #333;
+}
+
+.bebe{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+
+    gap: 10px;
+}
+
+/* ------------------------------------- */
+
+.product_d{
+    width: 100%;
+    height: 1025px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.center_product_d{
+    width: 80%;
+    height: 80%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.zagalovok_product{
+    width: 100%;
+    height: 125px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.zagal{
+    width: 50%;
+    height: 100px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.text_sprava{
+    width: 50%;
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+}
+
+.kartinochki_uwu{
+    width: 100%;
+    height: 627px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.didipi{
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* ------------------------------------- */
+
+.edu_work{
+    width: 100%;
+    height: 650px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.center_edu_work{
+    width: 80%;
+    height: 90%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.edu{
+    width: 50%;
+    height: 503px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.work_we{
+    width: 50%;
+    height: 503px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.zagalo_edu{
+    width: 100%;
+    height: 100px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.ogo_edu{
+    width: 100%;
+    height: 336px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.cart_ugu{
+    width: 90%;
+    height: 100px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+
+    border-bottom: 1px solid #E5E5E5;
+}
+
+.uwu_edu{
+    width: 100%;
+    height: 60%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+
+}
+
+.uwu_wor{
+    width: 100%;
+    height: 60%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.verh_edu{
+    width: 98%;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+
+}
+
+.verh_wor{
+    width: 98%;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+
+}
+
+.w_eduw{
+    width: 60%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.w_worw{
+    width: 70%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.uwu_wor{
+    width: 100%;
+    height: 60%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.piper{
+    width: 80%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+
+}
+
+/* ------------------------------------- */
+
+.testim{
+    width: 100%;
+    height: 773px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.center_testim{
+    width: 80%;
+    height: 80%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.zagal_tes{
+    width: 100%;
+    height: 110px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.vsykoe_kakoe{
+    width: 100%;
+    height: 450px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.div_test{
+    width: 40%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.w_2r_testi{
+    width: 100%;
+    height: 184px;
+
+    text-align: left;
+}
+
+.imya_pasport_test{
+    width: 100%;
+    height: 70px;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.div_divich{
+    height: 60%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.knopki_popki{
+    width: 113px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.kvadrti_papik{
+    width: 54px;
+    height: 54px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #000000;
+    border-style: none;
+
+    transition: 0.5s all ease;
+
+}
+
+.kvadrti_papik:hover{
+    background-color: #666666;
+}
+
+/* ------------------------------------- */
+
+.faq{
+    width: 100%;
+    height: 811px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #000000;
+}
+
+.center_faq{
+    width: 80%;
+    height: 80%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.zagalovo_faq{
+    width: 100%;
+    height: 124px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.iz_faq{
+    width: 100%;
+    height: 428px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.kaka{
+    width: 45%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.kaka_faq{
+    width: 100%;
+    height: 104px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+    border-bottom: 1px solid #333;
+}
+
+.kaka_center_turbina{
+    width: 95%;
+    height: 60%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.krutilki_perdilki{
+    transform: rotate(-90deg);
+}
+
+/* ------------------------------------- */
+
+footer{
+    width: 100%;
+    height: 719px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+
+    background-color: #000000;
+}
+
+.footboal{
+    width: 80%;
+    height: 70%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.zagalovo_kickass{
+    width: 100%;
+    height: 135px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.chtuki_druki{
+    width: 100%;
+    height: 140px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.gabec{
+    width: 351px;
+    height: 115px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.eto_vashe_p{
+    width: 495px;
+    height: 100%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ouiw_ww{
+    display: flex;
+    flex-direction: row;
+
+    gap: 10px;
+}
+
+.BABANGIDA{
+    width: 100px;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.punkt_naznachenia{
+    font-size: 18px;
+    font-weight: bold;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+    color: #ffffff;
+
+    text-decoration: none;
+    list-style: none;
+}
+
+.ilyuga{
+    width: 100%;
+}
+
+
+/* Cosmetic----------------------------- */
+
+.zagalovok{
+    font-size: 72px;
+    font-weight: bold;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+    line-height: 72.5px;
+
+    color: #000000;
+}
+
+.zag_carts{
+    font-size: 24px;
+    font-weight: bold;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+    color: #000000;
+}
+
+.zag_carts_today{
+    font-size: 24px;
+    font-weight: bold;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+    color: #ffffff;
+}
+
+.zagalo2r{
+    font-size: 28px;
+    font-weight: bold;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+    color: #000000;
+}
+
+.zagalo2r_w{
+    font-size: 36px;
+    font-weight: bold;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+    color: #000000;
+}
+
+.zag_carts_2{
+    font-size: 28px;
+    font-weight: bold;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+    color: #ffffff;
+}
+
+.orange_text{
+    font-size: 72px;
+    font-weight: bold;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+    color: #FF8A56;
+}
+
+.text_zagalovok{
+    font-size: 52px;
+    font-weight: bold;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+    color: #ffffff;
+}
+
+.text_zagalovok_uwu_b{
+    font-size: 52px;
+    font-weight: bold;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+    color: #3C46FF;
+}
+
+.text_zagalovok_bl{
+    font-size: 58px;
+    font-weight: bold;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+    color: #000000;
+}
+
+.just_text{
+    font-size: 22px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+    color: #666666;
+
+}
+
+.neokotoriy_text{
+    font-size: 16px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+    color: #666666;
+
+    line-height: 28px;
+
+}
+
+.black_text{
+    font-size: 18px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+    color: #000000;
+
+}
+
+.black_text_2r_2u{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+    color: #000000;
+
+}
+
+.white_text{
+    font-size: 18px;
+    font-weight: bold;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+    color: #ffffff;
+
+}
+
+.black_text_2{
+    font-size: 16px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+    font-weight: bold;
+
+    color: #000000;
+
+}
+
+.big_baby_tape{
+    font-size: 15px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+    font-weight: bold;
+
+    color: #ffffff;
+
+}
+
+.neponytnoe_1{
+    font-size: 22x;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+    color: #FF5E69;
+
+    font-weight: bold;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}
+
+.neponytnoe_2{
+    font-size: 22x;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+    color: #B16CEA;
+
+    font-weight: bold;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}
+
+.neponytnoe_3{
+    font-size: 16x;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+    color: #3C46FF;
+
+    font-weight: bold;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}
+
+.neponytnoe_4{
+    font-size: 22px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+    color: #FFA84B;
+
+    font-weight: bold;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}
+
+.tudi_sudi{
+    transform: scaleX(-1);
+}
